@@ -1,0 +1,30 @@
+{
+    "name": "betterflarum/customcss",
+    "description": "A Flarum extension, load your custom CSS file in vendor/betterflarum/less",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8.5"
+    },
+    "authors": [
+        {
+            "name": "BetterFlarum",
+            "email": "vnpedl@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Custom CSS",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-compass",
+                "backgroundColor": "red",
+                "color": "white"
+            }
+        }
+    }
+}
